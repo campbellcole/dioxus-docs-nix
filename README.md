@@ -26,7 +26,8 @@ $ ./serve.sh -h
 Usage: ./serve.sh [-h/-g/-f/-r/-t]
   -h Show help
   -g Serve 'guide' book (default)
-  -f Serve 'fermi' book
-  -r Serve 'reference' book
-  -t Serve 'router' book
+  -f Serve 'fermi' book (book is empty, no real use here)
+  -r Serve 'reference' book (currently not supported)
+  -t Serve 'router' book (book is almost empty, not much use either)
+  -a Serve all books
 ```
