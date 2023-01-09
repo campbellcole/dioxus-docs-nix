@@ -19,16 +19,7 @@
       {
         devShells.default = pkgs.mkShell rec {
           nativeBuildInputs = [
-            pkg-config
-            clang
             (callPackage ./pkgs/mdBook {} )
-          ];
-
-          buildInputs = [
-            (rust-bin.stable.latest.default.override {
-              extensions = [ "rust-src" ];
-            })
-            rust-analyzer
           ];
         };
       }
